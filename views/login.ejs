@@ -20,36 +20,37 @@
     <link href="public/css/style.css" rel="stylesheet">
 
 </head>
-<body>
     <!--- Insert sidebar-->
   
     <!-- Insert header-->
     <!-- dashboard-->
 
     <!-- form -->
+  <body class="bg-primary" style= margin-top:40px>
     <form action="/login" method="post">
       <% if (messages.error) { %>
         <%= messages.error %>
       <% } %>
         <div class="container">
+          <h1 style= margin-top:40px >login</h1>
+        <p>Please log in to your account.</p>
           <label for="uname"><b>Email</b></label>
+          <br>
           <input type="text" placeholder="Enter Name" name="email" required>
-      
+          <br>
           <label for="psw"><b>Wachtwoord</b></label>
+          <br>
           <input type="password" placeholder="Enter Password" name="password" required>
-      
-          <button type="submit">Login</button>
+          <br>
+          <button type="submit" class="registerbtn btn-success">Login</button>
           <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
           </label>
+          <br>
         </div>
-
+        <br>
         <div class="container signin">
-          <p>Don't have an account yet? <a href="/register">Register now</a>.</p>
-        </div>
-      
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn"><a href="/">Back to homepage</a></button>
+          <p>Don't have an account yet? <a href="/register" class="text-danger" >Register now</a></p></button>
         </div>
       </form>
 </body>
