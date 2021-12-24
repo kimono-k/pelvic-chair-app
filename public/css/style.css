@@ -83,6 +83,10 @@ body {
   background-color: #fff;
 }
 
+.uitleg-zithouding {
+  margin-top: 30px;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
