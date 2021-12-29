@@ -74,19 +74,41 @@ article #timer{
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                    <article class="clock me-auto" id="model3">
-                        <h3></h3>
-                        <div class="count">
-                          <div id="timer">
+                    <div class="container">
+                      <div class="row">
+                        <div class="card col-lg-5">
+                          <div class="card-body">
+                            <h3>
+                              <strong>Instructies</strong>
+                            </h3>
+                            <p>Beste gebruiker,</p>
+                            <p>Met de timer aan de rechterkant weet je zeker dat je voor maar 30 minuten zit,
+                              Voordat je begint is het belangrijk om eerst te weten hoe je het beste kan zitten
+                              op de Pelvic Chair
+                            </p>
+                            <p><a class="text-info" href="#instructies">Klik op deze link voor meer informatie.</a></p>
+                            <p>
+                              Veel success toegewenst!
+                            </p>
+                            <p>Team Pelvic Chair</p>
                           </div>
-                          <div>
+                        </div>
+
+                        <article class="clock me-auto col-lg-5" id="model3">
+                          <h3></h3>
+                          <div class="count">
+                            <div id="timer">
+                            </div>
+                            <div>
                               <button class="btn-primary" onclick="timer()" style="border:none; position: relative; top: 5px;">
-                            <a class="d-block btn btn-sm shadow-sm"><i
-                                    class="fas fa-download fa-sm text-white-50"></i> Start </a>
-                            </button>
-                        </div>
-                        </div>
-                      </article>
+                                <a class="d-block btn btn-sm shadow-sm"><i
+                                  class="fas fa-download fa-sm text-white-50"></i> Start </a>
+                                </button>
+                              </div>
+                            </div>
+                          </article>
+                      </div>
+                    </div>
                       </div>
 
 
@@ -107,7 +129,7 @@ article #timer{
                                         <canvas id="js-pie-chart"></canvas>
                                     </div>
                                     <p class="uitleg-zithouding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    <div class="img-position-area row justify-content-center">
+                                    <div id="instructies" class="img-position-area row justify-content-center">
                                         <img src="../public/css/images/img1.PNG" alt="img1.png">
                                         <img src="../public/css/images/img2.PNG" alt="img2.png">
                                         <img src="../public/css/images/img3.PNG" alt="img3.png">
@@ -120,7 +142,7 @@ article #timer{
                         </div>
 
                         <!-- Pie Chart -->
-                        
+
                         </div>
                     </div>
 
