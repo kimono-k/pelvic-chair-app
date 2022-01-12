@@ -1,10 +1,6 @@
 # Pelvic Chair
 De Pelvic Chair is een bestaande stoel die ervoor zorgt om de bekkeninstabiliteit van zwangere vrouwen tijdelijk te doen verlichten. Deze applicatie werkt met een Arduino die dient als sensor. We gebruiken 4 sensoren voor deze stoel en om deze te prototypen. Wij werken voor Stichting Inkluso om dit project te kunnen realiseren en te kunnen implementeren in de praktijk.
 
-# Als je de weg kwijt bent met het committen
-- Clone deze repository gewoon opnieuw en je bent weer up-to-date.
-- Doe dit via GitHub Desktop.
-
 # Sneller ontwikkelen met Nodemon
 - Als je sneller wilt ontwikkelen dan is het handig om nodemon te gebruiken.
 - Nodemon houdt je saves van je bestanden bij en dan wordt dit updatet waardoor je niet constant de server opnieuw hoeft op te starten met node.
